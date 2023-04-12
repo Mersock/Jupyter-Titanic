@@ -9,6 +9,7 @@ RUN conda install \
     numpy \
     pandas \
     matplotlib \
+    scikit-learn \
     jupyterlab
     
 COPY ./README.md .
