@@ -8,5 +8,5 @@ services:
     volumes:
       - ./data:/project/data
       - ./notebooks:/project/notebooks
-    # environment:
-    #   JUPYTER_TOKEN: 6P7R9SATCVDWEYGZH2K4M5N6Q8R9SBUCVDXFYGZJ3K4M6P7Q8SATBUDWEX
+    environment:
+      JUPYTER_TOKEN: 6P7R9SATCVDWEYGZH2K4M5N6Q8R9SBUCVDXFYGZJ3K4M6P7Q8SATBUDWEX
