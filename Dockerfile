@@ -10,6 +10,8 @@ RUN conda install \
     pandas \
     matplotlib \
     scikit-learn \
+    missingno \ 
+    seaborn \
     jupyterlab
     
 COPY ./README.md .
