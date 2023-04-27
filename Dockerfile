@@ -12,7 +12,10 @@ RUN conda install \
     scikit-learn \
     missingno \ 
     seaborn \
-    jupyterlab
+    jupyterlab \
+    tensorflow \
+    xgboost \
+    lightgbm
     
 COPY ./README.md .
 COPY ./data ./data
